@@ -1,10 +1,10 @@
+// import './App.css'
+
+import { TwitterFollowCard } from "./TwitterFollowCard"
+
 function App () {
     return (
-        <article>
-            <header>
-                <img src="/public/avatar.jpg" alt="Avatar de abrahan" />
-            </header>
-        </article>
+      <TwitterFollowCard />
     )
 }
 
