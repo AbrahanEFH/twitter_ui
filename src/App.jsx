@@ -5,15 +5,15 @@ import { TwitterFollowCard } from "./TwitterFollowCard"
 function App () {
     return (
       <div className="App"> 
-      <TwitterFollowCard isFollowing userName="Abrahanfrias" > 
+      <TwitterFollowCard  userName="Abrahanfrias" > 
       <h2>Abrahan Frias</h2>
       </TwitterFollowCard>
 
-      <TwitterFollowCard isFollowing={false} userName="Cristiano">
+      <TwitterFollowCard  userName="Cristiano">
       <h2>Cr7</h2>
       </TwitterFollowCard>
 
-      <TwitterFollowCard isFollowing userName="vinijr">
+      <TwitterFollowCard  userName="vinijr">
         <h2>vinijr</h2>
       </TwitterFollowCard>
       </div>
