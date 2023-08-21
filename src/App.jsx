@@ -16,6 +16,10 @@ function App () {
       <TwitterFollowCard  userName="vinijr">
         <h2>vinijr</h2>
       </TwitterFollowCard>
+
+      <TwitterFollowCard  userName="realmadrid">
+        <h2>Real Madrid</h2>
+      </TwitterFollowCard>
       </div>
     )
 }

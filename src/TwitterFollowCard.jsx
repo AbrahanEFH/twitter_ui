@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export function TwitterFollowCard ({ children, userName}) {
+export function TwitterFollowCard ({ children, userName, initialIsFollowing}) {
     const [isFollowing, setIsFollowing ] = useState(false) // Destructuring
     
 
@@ -28,7 +28,8 @@ export function TwitterFollowCard ({ children, userName}) {
         </header>
         <aside>
             <button className={buttonClassName} onClick={handleClick} >
-                {text}
+                <span className="tw-followCard-text">{text}</span> 
+                <span className="tw-followCard-stopFollow">Dejar de Seguir</span>
             </button>
         </aside>
     </article>
